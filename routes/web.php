@@ -20,4 +20,7 @@ use Illuminate\Support\Facades\Route;
 //     return view('front');
 // });
 
-Route::get('/', [FrontController::class,'index']);
+Route::get('/', [FrontController::class,'index'])->name('index');
+Auth::routes();
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');

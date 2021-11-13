@@ -1,5 +1,0 @@
-Top Header
-Middle Header
-Main Navigation bar
-left Siderbar
-Footer
